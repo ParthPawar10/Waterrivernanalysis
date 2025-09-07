@@ -1,0 +1,673 @@
+River,Location,Month,Year,pH,DO (mg/L),BOD (mg/L),FC MPN/100ml,TC MPN/100ml,Water Quality
+Mula,Aundh Bridge,January,2017,8.5,1.8,14.5,,,Non Complying
+Mula,Aundh Bridge,January,2018,8.6,4.6,6.8,200,1800,Non Complying
+Mula,Aundh Bridge,January,2019,8,0.9,10.5,225,1800+,Non Complying
+Mula,Aundh Bridge,January,2020,7,4.1,10,900,1800,Non Complying
+Mula,Aundh Bridge,January,2021,8.2,5.1,8.2,425,1600,Non Complying
+Mula,Aundh Bridge,January,2022,7.4,4.6,7.5,35,350,Non Complying
+Mula,Aundh Bridge,January,2023,7.3,4.6,10.5,10,250,Non Complying
+Mula,Harrison Bridge,January,2017,8.5,1.7,15,,,Non Complying
+Mula,Harrison Bridge,January,2018,8.4,4.8,9.5,275,1800,Non Complying
+Mula,Harrison Bridge,January,2019,8.1,BDL,12,250,1800+,Non Complying
+Mula,Harrison Bridge,January,2020,6.9,3.1,10,1800,1800,Non Complying
+Mula,Harrison Bridge,January,2021,8.1,5.2,8.6,195,1600,Non Complying
+Mula,Harrison Bridge,January,2022,7.3,4.7,7,45,900,Non Complying
+Mula,Harrison Bridge,January,2023,7,4.1,18,17,550,Non Complying
+Mula-Mutha,Mundhawa Bridge,January,2017,8.5,1,17.5,,,Non Complying
+Mula-Mutha,Mundhawa Bridge,January,2018,8.1,4.5,10,200,1600,Non Complying
+Mula-Mutha,Mundhawa Bridge,January,2019,7.9,12.5,BDL,250,1800+,Non Complying
+Mula-Mutha,Mundhawa Bridge,January,2020,6.9,5,9,900,1800,Non Complying
+Mula-Mutha,Mundhawa Bridge,January,2021,8.1,5.3,8.4,275,1800,Non Complying
+Mula-Mutha,Mundhawa Bridge,January,2022,7.4,4.3,9,35,550,Non Complying
+Mula-Mutha,Mundhawa Bridge,January,2023,7.1,4.4,14.9,20,550,Non Complying
+Mula-Mutha,Theur,January,2017,8.4,3.4,11,,,Non Complying
+Mula-Mutha,Theur,January,2018,8.6,5.8,5.4,170,900,Non Complying
+Mula-Mutha,Theur,January,2019,8,1.2,9,140,1600,Non Complying
+Mula-Mutha,Theur,January,2020,6.8,5.6,8,70,900,Non Complying
+Mula-Mutha,Theur,January,2021,8.3,5.8,4.2,300,10,Non Complying
+Mula-Mutha,Theur,January,2022,7.3,5.1,5.8,25,350,Non Complying
+Mula-Mutha,Theur,January,2023,7.5,4.3,13.4,15,550,Non Complying
+Mutha,Sangam Bridge,January,2017,8.3,NIL,19,,,Non Complying
+Mutha,Sangam Bridge,January,2018,7.1,3.2,13,95,900,Non Complying
+Mutha,Sangam Bridge,January,2019,7.9,BDL,13,1800+,1800+,Non Complying
+Mutha,Sangam Bridge,January,2020,6.9,4.8,9.5,1800,1800,Non Complying
+Mutha,Sangam Bridge,January,2021,8,5.3,8,110,1600,Non Complying
+Mutha,Sangam Bridge,January,2022,7.2,4.4,9,45,1600,Non Complying
+Mutha,Sangam Bridge,January,2023,7.2,3,26,30,900,Non Complying
+Mutha,Veer Savarkar Bhavan,January,2017,8.2,NIL,18.5,,,Non Complying
+Mutha,Veer Savarkar Bhavan,January,2018,7.2,3.6,11.5,275,1800,Non Complying
+Mutha,Veer Savarkar Bhavan,January,2019,7.7,BDL,12.5,275,1800+,Non Complying
+Mutha,Veer Savarkar Bhavan,January,2020,7,5,7,1600,1800,Non Complying
+Mutha,Veer Savarkar Bhavan,January,2021,7.9,5.2,8.6,350,1800,Non Complying
+Mutha,Veer Savarkar Bhavan,January,2022,7.1,4.2,9.5,45,1600,Non Complying
+Mutha,Veer Savarkar Bhavan,January,2023,6.9,3.3,23,20,900,Non Complying
+Mutha,Deccan Bridge,January,2017,8.2,NIL,17,,,Non Complying
+Mutha,Deccan Bridge,January,2018,7.2,3.8,16.5,250,1800,Non Complying
+Mutha,Deccan Bridge,January,2019,7.7,BDL,11,350,1800+,Non Complying
+Mutha,Deccan Bridge,January,2020,7,3,10,1800,1800,Non Complying
+Mutha,Deccan Bridge,January,2021,7.9,4.8,9.6,275,1800,Non Complying
+Mutha,Deccan Bridge,January,2022,7.2,4.1,9.5,50,1800,Non Complying
+Mutha,Deccan Bridge,January,2023,6.8,3.1,26,25,900,Non Complying
+Mutha,Khadakvasla Dam,January,2017,8.1,6.5,4,,,Non Complying
+Mutha,Khadakvasla Dam,January,2018,7.7,6.5,2.4,4,14,Complying
+Mutha,Khadakvasla Dam,January,2019,7.9,6.8,1.8,8,170,Complying
+Mutha,Khadakvasla Dam,January,2020,7.8,6.6,3,8,250,Complying
+Mutha,Khadakvasla Dam,January,2021,8.1,6.2,3.4,2,55,Non Complying
+Mutha,Khadakvasla Dam,January,2022,7.8,6.8,2.2,4,110,Complying
+Mutha,Khadakvasla Dam,January,2023,7.3,6.3,2.2,6,85,Complying
+Mula,Aundh Bridge,February,2017,7.6,0.7,11,,,Non Complying
+Mula,Aundh Bridge,February,2018,7.8,5.1,6.4,125,1800+,Non Complying
+Mula,Aundh Bridge,February,2019,8,1,10.5,275,1800+,Non Complying
+Mula,Aundh Bridge,February,2020,7.5,5,16,1600,1800,Non Complying
+Mula,Aundh Bridge,February,2021,7.8,4.9,8.2,350,1600,Non Complying
+Mula,Aundh Bridge,February,2022,7.7,4.7,8.4,9,200,Non Complying
+Mula,Aundh Bridge,February,2023,7.5,4.3,13.4,11,250,Non Complying
+Mula,Harrison Bridge,February,2017,7.4,0.5,14,,,Non Complying
+Mula,Harrison Bridge,February,2018,8.1,4.1,13.5,250,1800+,Non Complying
+Mula,Harrison Bridge,February,2019,8,0.9,11.5,350,,Non Complying
+Mula,Harrison Bridge,February,2020,7.5,4.5,18,1800,1800+,Non Complying
+Mula,Harrison Bridge,February,2021,7.3,5.7,8.6,195,,Non Complying
+Mula,Harrison Bridge,February,2022,7.5,4.2,8.6,17,275,Non Complying
+Mula,Harrison Bridge,February,2023,7.5,4.2,18.8,14,550,Non Complying
+Mula-Mutha,Mundhawa Bridge,February,2017,7.4,1.8,19,225,1800+,Non Complying
+Mula-Mutha,Mundhawa Bridge,February,2018,8.2,4.3,11.5,200,1600,Non Complying
+Mula-Mutha,Mundhawa Bridge,February,2019,7.8,0.9,13,275,1800+,Non Complying
+Mula-Mutha,Mundhawa Bridge,February,2020,7.2,4.1,20,550,1800,Non Complying
+Mula-Mutha,Mundhawa Bridge,February,2021,7.9,4.9,10.4,350,1800,Non Complying
+Mula-Mutha,Mundhawa Bridge,February,2022,7.5,4.7,7.2,15,425,Non Complying
+Mula-Mutha,Mundhawa Bridge,February,2023,7.3,3.6,17.9,20,550,Non Complying
+Mula-Mutha,Theur,February,2017,7.4,1.6,10.5,,,Non Complying
+Mula-Mutha,Theur,February,2018,8.3,5.2,6.6,70,550,Non Complying
+Mula-Mutha,Theur,February,2019,7.8,3.9,4.5,140,1800+,Non Complying
+Mula-Mutha,Theur,February,2020,8.5,5.8,7,70,900,Non Complying
+Mula-Mutha,Theur,February,2021,7.8,5.4,11.5,12,425,Non Complying
+Mula-Mutha,Theur,February,2022,7.8,4.9,6.6,12,350,Non Complying
+Mula-Mutha,Theur,February,2023,7.6,4.3,10.4,20,550,Non Complying
+Mutha,Sangam Bridge,February,2017,7.2,2.9,17.5,,,Non Complying
+Mutha,Sangam Bridge,February,2018,8,3.9,17,170,900,Non Complying
+Mutha,Sangam Bridge,February,2019,7.8,0.9,13.5,275,1800+,Non Complying
+Mutha,Sangam Bridge,February,2020,7.3,5.3,20,550,1800,Non Complying
+Mutha,Sangam Bridge,February,2021,7.8,5,9.6,120,1600,Non Complying
+Mutha,Sangam Bridge,February,2022,7.5,4.4,7.8,17,350,Non Complying
+Mutha,Sangam Bridge,February,2023,7.4,4.1,19.8,30,900,Non Complying
+Mutha,Veer Savarkar Bhavan,February,2017,7.3,2.3,18,,,Non Complying
+Mutha,Veer Savarkar Bhavan,February,2018,7.8,4,15,275,1800+,Non Complying
+Mutha,Veer Savarkar Bhavan,February,2019,7.8,1.1,12.5,275,1800+,Non Complying
+Mutha,Veer Savarkar Bhavan,February,2020,7.5,4.7,17,1800,1800,Non Complying
+Mutha,Veer Savarkar Bhavan,February,2021,7.8,5.1,11.4,275,1800,Non Complying
+Mutha,Veer Savarkar Bhavan,February,2022,7.5,4.6,7.4,20,350,Non Complying
+Mutha,Veer Savarkar Bhavan,February,2023,7.2,3.8,21.3,30,900,Non Complying
+Mutha,Deccan Bridge,February,2017,7.3,2.2,17.5,,,Non Complying
+Mutha,Deccan Bridge,February,2018,8.1,4.2,13,275,1800+,Non Complying
+Mutha,Deccan Bridge,February,2019,7.8,1,13,350,1800+,Non Complying
+Mutha,Deccan Bridge,February,2020,7.5,4,26,1800,1800,Non Complying
+Mutha,Deccan Bridge,February,2021,7.7,4.8,9.5,350,1800,Non Complying
+Mutha,Deccan Bridge,February,2022,7.5,4.1,9,20,550,Non Complying
+Mutha,Deccan Bridge,February,2023,7.3,3.5,21.3,30,900,Non Complying
+Mutha,Khadakvasla Dam,February,2017,7.8,6.1,4,,,Non Complying
+Mutha,Khadakvasla Dam,February,2018,8.2,6.8,2.6,14,45,Complying
+Mutha,Khadakvasla Dam,February,2019,8.2,6.6,2.2,9,140,Complying
+Mutha,Khadakvasla Dam,February,2020,8.2,6.7,3,8,140,Complying
+Mutha,Khadakvasla Dam,February,2021,7.9,6.1,3.2,2,50,Non Complying
+Mutha,Khadakvasla Dam,February,2022,7.8,6.2,2.2,5,195,Complying
+Mutha,Khadakvasla Dam,February,2023,7.7,6.6,2.4,6,95,Complying
+Mula,Aundh Bridge,March,2017,7.6,2.8,13,,,Non Complying
+Mula,Aundh Bridge,March,2018,8.1,5.6,6.4,195,1600,Non Complying
+Mula,Aundh Bridge,March,2019,8.4,1.2,12.5,275,1800+,Non Complying
+Mula,Aundh Bridge,March,2020,7.1,6.7,3,900,1800+,Complying
+Mula,Aundh Bridge,March,2021,6.9,4.5,10.8,275,1600,Non Complying
+Mula,Aundh Bridge,March,2022,8.5,4.7,9,12,225,Non Complying
+Mula,Aundh Bridge,March,2023,7.8,4.9,11,20,200,Non Complying
+Mula,Harrison Bridge,March,2017,7.5,2,13.5,,,Non Complying
+Mula,Harrison Bridge,March,2018,8.2,4.7,11.5,225,1800+,Non Complying
+Mula,Harrison Bridge,March,2019,7.8,BDL,15,350,1800+,Non Complying
+Mula,Harrison Bridge,March,2020,7,5.8,7,1800,1800+,Non Complying
+Mula,Harrison Bridge,March,2021,7,5.2,7.4,200,1600,Non Complying
+Mula,Harrison Bridge,March,2022,8.4,4.8,8.5,12,275,Non Complying
+Mula,Harrison Bridge,March,2023,8.1,3.8,25,70,900,Non Complying
+Mula-Mutha,Mundhawa Bridge,March,2017,8.8,1.7,15,,,Non Complying
+Mula-Mutha,Mundhawa Bridge,March,2018,8.1,4.5,11,140,900,Non Complying
+Mula-Mutha,Mundhawa Bridge,March,2019,7.7,BDL,17.5,350,1800+,Non Complying
+Mula-Mutha,Mundhawa Bridge,March,2020,8,5.6,6.8,900,1800+,Non Complying
+Mula-Mutha,Mundhawa Bridge,March,2021,7.1,4.4,11.5,425,1800,Non Complying
+Mula-Mutha,Mundhawa Bridge,March,2022,8.4,4.7,9,14,425,Non Complying
+Mula-Mutha,Mundhawa Bridge,March,2023,7.5,4.5,17,45,550,Non Complying
+Mula-Mutha,Theur,March,2017,7.3,3.8,11.5,,,Non Complying
+Mula-Mutha,Theur,March,2018,8.1,5.1,7.4,65,550,Non Complying
+Mula-Mutha,Theur,March,2019,7.9,3.6,8.5,200,1600,Non Complying
+Mula-Mutha,Theur,March,2020,6.8,6.1,5,70,900,Non Complying
+Mula-Mutha,Theur,March,2021,7.2,5.3,4.4,14,550,Non Complying
+Mula-Mutha,Theur,March,2022,8.3,4.9,7.8,10,275,Non Complying
+Mula-Mutha,Theur,March,2023,7.8,4.8,12.5,75,900,Non Complying
+Mutha,Sangam Bridge,March,2017,7.2,NIL,20,,,Non Complying
+Mutha,Sangam Bridge,March,2018,7.8,4.2,13.5,170,1600,Non Complying
+Mutha,Sangam Bridge,March,2019,7.1,BDL,18,550,1800+,Non Complying
+Mutha,Sangam Bridge,March,2020,6.8,5.8,7,900,1800+,Non Complying
+Mutha,Sangam Bridge,March,2021,7.3,5.1,7.2,110,1600,Non Complying
+Mutha,Sangam Bridge,March,2022,8.4,4.6,9.5,14,425,Non Complying
+Mutha,Sangam Bridge,March,2023,7.5,3.9,25,110,1600,Non Complying
+Mutha,Veer Savarkar Bhavan,March,2017,7.3,NIL,18,,,Non Complying
+Mutha,Veer Savarkar Bhavan,March,2018,7.9,4.4,13,250,1800+,Non Complying
+Mutha,Veer Savarkar Bhavan,March,2019,7.6,0.9,17,900,1800+,Non Complying
+Mutha,Veer Savarkar Bhavan,March,2020,6.7,5.7,8,1600,1800+,Non Complying
+Mutha,Veer Savarkar Bhavan,March,2021,7.2,4.8,9.5,275,1800,Non Complying
+Mutha,Veer Savarkar Bhavan,March,2022,8.3,4.6,9.5,14,350,Non Complying
+Mutha,Veer Savarkar Bhavan,March,2023,7.5,4.1,21,115,1600,Non Complying
+Mutha,Deccan Bridge,March,2017,7.3,1,17,,,Non Complying
+Mutha,Deccan Bridge,March,2018,7.7,4.2,13.5,200,1600,Non Complying
+Mutha,Deccan Bridge,March,2019,7.7,1.1,15,550,1800+,Non Complying
+Mutha,Deccan Bridge,March,2020,6.8,5.5,9,1800,1800+,Non Complying
+Mutha,Deccan Bridge,March,2021,7.3,4.7,11.5,350,1800,Non Complying
+Mutha,Deccan Bridge,March,2022,8.2,4.8,8.5,12,425,Non Complying
+Mutha,Deccan Bridge,March,2023,7.6,3.9,24,120,1800,Non Complying
+Mutha,Khadakvasla Dam,March,2017,7.2,5.9,4.5,,,Non Complying
+Mutha,Khadakvasla Dam,March,2018,7.9,6.7,2.4,6,17,Complying
+Mutha,Khadakvasla Dam,March,2019,8.1,6.9,2,6,25,Complying
+Mutha,Khadakvasla Dam,March,2020,7,6.5,3,4,110,Complying
+Mutha,Khadakvasla Dam,March,2021,7.5,5.5,3.4,2,55,Non Complying
+Mutha,Khadakvasla Dam,March,2022,8.1,5.8,2.2,7,170,Complying
+Mutha,Khadakvasla Dam,March,2023,7.8,5.8,2.4,4,85,Complying
+Mula,Aundh Bridge,April,2017,7.4,1.8,12,225,1600,Non Complying
+Mula,Aundh Bridge,April,2018,8.1,5.6,5.8,250,1600,Non Complying
+Mula,Aundh Bridge,April,2019,7.3,BDL,12.5,225,1800+,Non Complying
+Mula,Aundh Bridge,April,2020,6.8,5.6,6,,,Non Complying
+Mula,Aundh Bridge,April,2021,7.1,4.6,11,250,1600,Non Complying
+Mula,Aundh Bridge,April,2022,7.6,4.7,12.5,9,225,Non Complying
+Mula,Aundh Bridge,April,2023,7.3,4.8,13,35,500,Non Complying
+Mula,Harrison Bridge,April,2017,7.4,1.4,14,275,1600,Non Complying
+Mula,Harrison Bridge,April,2018,7.6,4.6,10,225,1600,Non Complying
+Mula,Harrison Bridge,April,2019,7.4,BDL,13.5,550,1800+,Non Complying
+Mula,Harrison Bridge,April,2020,6.75,1.8,18,,,Non Complying
+Mula,Harrison Bridge,April,2021,7.1,4.5,12.5,225,1600,Non Complying
+Mula,Harrison Bridge,April,2022,7.4,4.7,11.5,11,275,Non Complying
+Mula,Harrison Bridge,April,2023,7.2,3.5,24,150,1600,Non Complying
+Mula-Mutha,Mundhawa Bridge,April,2017,7.3,1.5,21,70,550,Non Complying
+Mula-Mutha,Mundhawa Bridge,April,2018,7.8,4.8,11.5,200,1600,Non Complying
+Mula-Mutha,Mundhawa Bridge,April,2019,7.3,BDL,18,225,1800+,Non Complying
+Mula-Mutha,Mundhawa Bridge,April,2020,6.7,4.5,7,,,Non Complying
+Mula-Mutha,Mundhawa Bridge,April,2021,6.9,4.5,12.5,350,1800,Non Complying
+Mula-Mutha,Mundhawa Bridge,April,2022,7.3,4.6,12,15,425,Non Complying
+Mula-Mutha,Mundhawa Bridge,April,2023,7.2,4.3,19,80,900,Non Complying
+Mula-Mutha,Theur,April,2017,7.6,3.7,9,,,Non Complying
+Mula-Mutha,Theur,April,2018,8.6,5.2,6.4,65,550,Non Complying
+Mula-Mutha,Theur,April,2019,8.1,3.6,7.5,550,1800+,Non Complying
+Mula-Mutha,Theur,April,2020,6.89,3.1,20,,,Non Complying
+Mula-Mutha,Theur,April,2021,7.4,5.4,5.4,20,900,Non Complying
+Mula-Mutha,Theur,April,2022,7.5,5.4,5.2,11,275,Non Complying
+Mula-Mutha,Theur,April,2023,7.2,5.1,9.2,65,900,Non Complying
+Mutha,Sangam Bridge,April,2017,7.1,1,32,80,550,Non Complying
+Mutha,Sangam Bridge,April,2018,7.9,3.2,23.5,250,1600,Non Complying
+Mutha,Sangam Bridge,April,2019,7.5,BDL,16.5,425,1800+,Non Complying
+Mutha,Sangam Bridge,April,2020,6.75,4.2,9,,,Non Complying
+Mutha,Sangam Bridge,April,2021,6.9,4.8,9.5,115,1600,Non Complying
+Mutha,Sangam Bridge,April,2022,7.2,4.6,13,14,425,Non Complying
+Mutha,Sangam Bridge,April,2023,7.2,3.6,22,140,1800,Non Complying
+Mutha,Veer Savarkar Bhavan,April,2017,7.1,1.6,30,110,900,Non Complying
+Mutha,Veer Savarkar Bhavan,April,2018,8,3.3,23,250,1800+,Non Complying
+Mutha,Veer Savarkar Bhavan,April,2019,7.4,BDL,11.5,900,1800+,Non Complying
+Mutha,Veer Savarkar Bhavan,April,2020,7,1.9,14,,,Non Complying
+Mutha,Veer Savarkar Bhavan,April,2021,6.8,4.6,11.5,350,1800,Non Complying
+Mutha,Veer Savarkar Bhavan,April,2022,7.1,4.3,14.5,13,350,Non Complying
+Mutha,Veer Savarkar Bhavan,April,2023,7.1,3.8,23,150,1800,Non Complying
+Mutha,Deccan Bridge,April,2017,7,1.9,24,275,1600,Non Complying
+Mutha,Deccan Bridge,April,2018,8,3,24,195,1600,Non Complying
+Mutha,Deccan Bridge,April,2019,7.3,BDL,11,1800+,1800+,Non Complying
+Mutha,Deccan Bridge,April,2020,6.72,3,12,,,Non Complying
+Mutha,Deccan Bridge,April,2021,6.8,4.5,12,350,1800,Non Complying
+Mutha,Deccan Bridge,April,2022,7.3,4.1,14.5,12,425,Non Complying
+Mutha,Deccan Bridge,April,2023,7,3.5,23,170,1800,Non Complying
+Mutha,Khadakvasla Dam,April,2017,8.1,5.9,4,,,Non Complying
+Mutha,Khadakvasla Dam,April,2018,7.9,6.4,2.6,12,350,Complying
+Mutha,Khadakvasla Dam,April,2019,7.8,6.8,2.2,2,25,Complying
+Mutha,Khadakvasla Dam,April,2020,6.88,5.9,3,,,Complying
+Mutha,Khadakvasla Dam,April,2021,7.1,6.2,3.4,4,60,Non Complying
+Mutha,Khadakvasla Dam,April,2022,7.6,6.1,2.2,7,195,Complying
+Mutha,Khadakvasla Dam,April,2023,7.5,6,2.8,4,80,Complying
+Mula,Aundh Bridge,May,2017,8.4,0.8,15,140,1600,Non Complying
+Mula,Aundh Bridge,May,2018,8.44,5,6.2,195,1600,Non Complying
+Mula,Aundh Bridge,May,2019,7.47,2.8,8.5,275,1800+,Non Complying
+Mula,Aundh Bridge,May,2020,,,,,,Lockdown
+Mula,Aundh Bridge,May,2021,8,4.4,12,350,1600,Non Complying
+Mula,Aundh Bridge,May,2022,7.4,5.4,5.6,12,250,Non Complying
+Mula,Aundh Bridge,May,2023,7.9,4.3,15,50,500,Non Complying
+Mula,Harrison Bridge,May,2017,8.1,Nil,22,140,1800,Non Complying
+Mula,Harrison Bridge,May,2018,8.37,4.4,13,250,1800+,Non Complying
+Mula,Harrison Bridge,May,2019,7.57,2.6,8,900,1800+,Non Complying
+Mula,Harrison Bridge,May,2020,,,,,,Lockdown
+Mula,Harrison Bridge,May,2021,8,4.4,13,250,1600,Non Complying
+Mula,Harrison Bridge,May,2022,7.3,5.1,7.2,14,425,Non Complying
+Mula,Harrison Bridge,May,2023,7.9,3.4,23,150,1600,Non Complying
+Mula-Mutha,Mundhawa Bridge,May,2017,8.1,0.5,19,40,140,Non Complying
+Mula-Mutha,Mundhawa Bridge,May,2018,8.52,4.4,13,170,900,Non Complying
+Mula-Mutha,Mundhawa Bridge,May,2019,7.42,BDL,18.5,425,1800+,Non Complying
+Mula-Mutha,Mundhawa Bridge,May,2020,,,,,,Lockdown
+Mula-Mutha,Mundhawa Bridge,May,2021,7.8,4.7,11,350,1800,Non Complying
+Mula-Mutha,Mundhawa Bridge,May,2022,7.3,4.6,10.5,14,425,Non Complying
+Mula-Mutha,Mundhawa Bridge,May,2023,7.9,4,18,110,1600,Non Complying
+Mula-Mutha,Theur,May,2017,7.5,1.9,11.5,,,Non Complying
+Mula-Mutha,Theur,May,2018,8.44,4.9,8.2,40,550,Non Complying
+Mula-Mutha,Theur,May,2019,8.22,3.1,10.5,70,900,Non Complying
+Mula-Mutha,Theur,May,2020,,,,,,Lockdown
+Mula-Mutha,Theur,May,2021,7.9,4.9,7.8,25,1600,Non Complying
+Mula-Mutha,Theur,May,2022,7.2,5.3,5.4,8,140,Non Complying
+Mula-Mutha,Theur,May,2023,7.8,5.1,7.5,70,900,Non Complying
+Mutha,Sangam Bridge,May,2017,8.2,0.7,20,110,1600,Non Complying
+Mutha,Sangam Bridge,May,2018,8.42,3.6,18,225,1600,Non Complying
+Mutha,Sangam Bridge,May,2019,7.63,BDL,17,425,1800+,Non Complying
+Mutha,Sangam Bridge,May,2020,,,,,,Lockdown
+Mutha,Sangam Bridge,May,2021,7.5,4.5,12.5,120,1600,Non Complying
+Mutha,Sangam Bridge,May,2022,7.2,5.4,5.6,15,425,Non Complying
+Mutha,Sangam Bridge,May,2023,7.8,3.2,24,175,1800,Non Complying
+Mutha,Veer Savarkar Bhavan,May,2017,8.1,1.3,18,80,900,Non Complying
+Mutha,Veer Savarkar Bhavan,May,2018,8.36,3.8,17,275,1800+,Non Complying
+Mutha,Veer Savarkar Bhavan,May,2019,7.63,2.2,9.5,1800+,1800+,Non Complying
+Mutha,Veer Savarkar Bhavan,May,2020,,,,,,Lockdown
+Mutha,Veer Savarkar Bhavan,May,2021,7.6,4.5,12,425,1800,Non Complying
+Mutha,Veer Savarkar Bhavan,May,2022,8,4.6,12,10,275,Non Complying
+Mutha,Veer Savarkar Bhavan,May,2023,7.8,3.3,24,225,1800,Non Complying
+Mutha,Deccan Bridge,May,2017,7.9,NIL,19.5,225,1800,Non Complying
+Mutha,Deccan Bridge,May,2018,8.28,3.4,19,250,1800+,Non Complying
+Mutha,Deccan Bridge,May,2019,7.43,1.9,10.5,1800+,1800+,Non Complying
+Mutha,Deccan Bridge,May,2020,,,,,,Lockdown
+Mutha,Deccan Bridge,May,2021,7.6,4.6,11,350,1800,Non Complying
+Mutha,Deccan Bridge,May,2022,7.3,4.3,13.5,14,350,Non Complying
+Mutha,Deccan Bridge,May,2023,7.8,3.2,25,200,1800,Non Complying
+Mutha,Khadakvasla Dam,May,2017,8,5.9,4.5,13,70,Non Complying
+Mutha,Khadakvasla Dam,May,2018,7.31,6.6,2.4,6,120,Complying
+Mutha,Khadakvasla Dam,May,2019,7.92,6.6,2.2,5,140,Complying
+Mutha,Khadakvasla Dam,May,2020,,,,,,Lockdown
+Mutha,Khadakvasla Dam,May,2021,8.2,6.4,2.8,6,65,Complying
+Mutha,Khadakvasla Dam,May,2022,7.7,6.2,2.4,6,130,Complying
+Mutha,Khadakvasla Dam,May,2023,7.8,6.1,2.5,5,85,Complying
+Mula,Aundh Bridge,June,2017,8.2,1.4,13,225,1600,Non Complying
+Mula,Aundh Bridge,June,2018,7.9,4,14.5,250,1800+,Non Complying
+Mula,Aundh Bridge,June,2019,7.4,2.6,8.5,900,1800+,Non Complying
+Mula,Aundh Bridge,June,2020,8,5.1,11,550,1800,Non Complying
+Mula,Aundh Bridge,June,2021,7.9,4.8,13,350,1800,Non Complying
+Mula,Aundh Bridge,June,2022,7.7,4.2,8.5,12,250,Non Complying
+Mula,Aundh Bridge,June,2023,7.3,5.1,8.5,170,900,Non Complying
+Mula,Harrison Bridge,June,2017,8.4,1.1,14,350,1800+,Non Complying
+Mula,Harrison Bridge,June,2018,7.8,4,15.5,275,1800+,Non Complying
+Mula,Harrison Bridge,June,2019,7.2,0.8,16.5,1800+,1800+,Non Complying
+Mula,Harrison Bridge,June,2020,8.4,5.6,8,900,1800,Non Complying
+Mula,Harrison Bridge,June,2021,7.8,4.9,12.5,275,1800,Non Complying
+Mula,Harrison Bridge,June,2022,7.7,4.5,10.5,15,425,Non Complying
+Mula,Harrison Bridge,June,2023,7.3,3.6,24,225,1800,Non Complying
+Mula-Mutha,Mundhawa Bridge,June,2017,8.2,1.2,16,200,1600,Non Complying
+Mula-Mutha,Mundhawa Bridge,June,2018,7.9,5.2,10,225,1600,Non Complying
+Mula-Mutha,Mundhawa Bridge,June,2019,7.2,1.3,15,275,1800+,Non Complying
+Mula-Mutha,Mundhawa Bridge,June,2020,8.2,5.7,7,425,1800,Non Complying
+Mula-Mutha,Mundhawa Bridge,June,2021,7.9,4.6,14.5,275,1800,Non Complying
+Mula-Mutha,Mundhawa Bridge,June,2022,7.6,4.1,8,25,900,Non Complying
+Mula-Mutha,Mundhawa Bridge,June,2023,7.2,3.9,21,150,1800,Non Complying
+Mula-Mutha,Theur,June,2017,8,3.6,13,70,550,Non Complying
+Mula-Mutha,Theur,June,2018,7.7,5.4,8.6,200,1600,Non Complying
+Mula-Mutha,Theur,June,2019,7.2,1.6,16.5,1800+,900,Non Complying
+Mula-Mutha,Theur,June,2020,8.5,5.9,6,11,550,Non Complying
+Mula-Mutha,Theur,June,2021,7.9,5.2,6.4,30,1800,Non Complying
+Mula-Mutha,Theur,June,2022,7.9,5.4,8.4,10,225,Non Complying
+Mula-Mutha,Theur,June,2023,7,4.5,11,110,1600,Non Complying
+Mutha,Sangam Bridge,June,2017,7.9,NIL,19.5,170,900,Non Complying
+Mutha,Sangam Bridge,June,2018,7.7,5,12.5,170,1600,Non Complying
+Mutha,Sangam Bridge,June,2019,7.7,NIL,28,1800+,1800+,Non Complying
+Mutha,Sangam Bridge,June,2020,8,5.5,8,550,1800,Non Complying
+Mutha,Sangam Bridge,June,2021,7.8,4.6,14.5,130,1600,Non Complying
+Mutha,Sangam Bridge,June,2022,7.7,4.7,9.5,17,550,Non Complying
+Mutha,Sangam Bridge,June,2023,6.9,3.7,24,200,1800,Non Complying
+Mutha,Veer Savarkar Bhavan,June,2017,8,NIL,15,275,1800+,Non Complying
+Mutha,Veer Savarkar Bhavan,June,2018,7.6,3,20,250,1800+,Non Complying
+Mutha,Veer Savarkar Bhavan,June,2019,7.3,NIL,19,1600,1800+,Non Complying
+Mutha,Veer Savarkar Bhavan,June,2020,8,6,7,900,1800,Non Complying
+Mutha,Veer Savarkar Bhavan,June,2021,7.6,4.7,14,550,1800,Non Complying
+Mutha,Veer Savarkar Bhavan,June,2022,8,4.5,13,14,350,Non Complying
+Mutha,Veer Savarkar Bhavan,June,2023,7.1,3.5,26,250,1800,Non Complying
+Mutha,Deccan Bridge,June,2017,8.2,NIL,16.5,250,1800+,Non Complying
+Mutha,Deccan Bridge,June,2018,7.7,3.2,20,275,1800+,Non Complying
+Mutha,Deccan Bridge,June,2019,8,NIL,26,1800+,1800+,Non Complying
+Mutha,Deccan Bridge,June,2020,7.8,5.4,8,900,1800,Non Complying
+Mutha,Deccan Bridge,June,2021,7.6,4.9,13.5,425,1800,Non Complying
+Mutha,Deccan Bridge,June,2022,8.1,4.7,15,,425,Non Complying
+Mutha,Deccan Bridge,June,2023,7,3.2,28,275,1800,Non Complying
+Mutha,Khadakvasla Dam,June,2017,7.6,6,5,20,195,Non Complying
+Mutha,Khadakvasla Dam,June,2018,8.5,6.1,3.4,8,200,Non Complying
+Mutha,Khadakvasla Dam,June,2019,8,6.6,2.5,2,17,Complying
+Mutha,Khadakvasla Dam,June,2020,8.5,5.6,8,2,85,Non Complying
+Mutha,Khadakvasla Dam,June,2021,7.9,6.1,3.4,7,70,Non Complying
+Mutha,Khadakvasla Dam,June,2022,7.7,6.2,2.6,8,130,Complying
+Mutha,Khadakvasla Dam,June,2023,7.6,6.3,2.6,8,95,Complying
+Mula,Aundh Bridge,July,2017,7.5,6.3,5.4,200,1600,Non Complying
+Mula,Aundh Bridge,July,2018,6.9,3.6,12.5,275,1800+,Non Complying
+Mula,Aundh Bridge,July,2019,7.4,3.2,6.5,1600,1800+,Non Complying
+Mula,Aundh Bridge,July,2020,7.8,6.3,4,550,1800,Non Complying
+Mula,Aundh Bridge,July,2021,7.7,4.3,12.5,275,1600,Non Complying
+Mula,Aundh Bridge,July,2022,7.4,4.5,15,25,350,Non Complying
+Mula,Aundh Bridge,July,2023,7,5.1,7.6,22,400,Non Complying
+Mula,Harrison Bridge,July,2017,7.3,6,6,170,900,Non Complying
+Mula,Harrison Bridge,July,2018,7,3.1,13.5,250,1800+,Non Complying
+Mula,Harrison Bridge,July,2019,7.4,3.3,7,1800+,1800+,Non Complying
+Mula,Harrison Bridge,July,2020,7.9,5.8,6,350,1800,Non Complying
+Mula,Harrison Bridge,July,2021,7.7,4.1,14.5,275,1600,Non Complying
+Mula,Harrison Bridge,July,2022,7.1,4.2,12.5,30,550,Non Complying
+Mula,Harrison Bridge,July,2023,7.6,4.4,12,21,350,Non Complying
+Mula-Mutha,Mundhawa Bridge,July,2017,8.2,5.6,7,140,900,Non Complying
+Mula-Mutha,Mundhawa Bridge,July,2018,7.5,3.3,14.5,200,1600,Non Complying
+Mula-Mutha,Mundhawa Bridge,July,2019,7.5,1.9,12.5,1800+,1800+,Non Complying
+Mula-Mutha,Mundhawa Bridge,July,2020,8.1,5.4,9,425,1800,Non Complying
+Mula-Mutha,Mundhawa Bridge,July,2021,7.8,4.5,10.5,250,1800,Non Complying
+Mula-Mutha,Mundhawa Bridge,July,2022,7.4,5,6.6,30,900,Non Complying
+Mula-Mutha,Mundhawa Bridge,July,2023,7.4,4.2,17.5,25,540,Non Complying
+Mula-Mutha,Theur,July,2017,7.5,5.2,9,275,1600,Non Complying
+Mula-Mutha,Theur,July,2018,7.2,4.5,5.5,110,900,Non Complying
+Mula-Mutha,Theur,July,2019,7.5,4.3,5,900,1800+,Non Complying
+Mula-Mutha,Theur,July,2020,7.7,5.8,7,10,425,Non Complying
+Mula-Mutha,Theur,July,2021,7.6,5.9,5.4,35,1800,Non Complying
+Mula-Mutha,Theur,July,2022,7.7,5.2,6.4,20,275,Non Complying
+Mula-Mutha,Theur,July,2023,7.8,4.9,8.5,13,280,Non Complying
+Mutha,Sangam Bridge,July,2017,7.3,4.4,14.2,195,900,Non Complying
+Mutha,Sangam Bridge,July,2018,7,3.4,20.5,200,1800+,Non Complying
+Mutha,Sangam Bridge,July,2019,7.6,2.1,10.5,1800+,1800+,Non Complying
+Mutha,Sangam Bridge,July,2020,7.9,5.3,10,250,1600,Non Complying
+Mutha,Sangam Bridge,July,2021,7.74,4.8,12.5,170,1800,Non Complying
+Mutha,Sangam Bridge,July,2022,7.3,4.5,15.5,35,900,Non Complying
+Mutha,Sangam Bridge,July,2023,7.2,4,20,35,550,Non Complying
+Mutha,Veer Savarkar Bhavan,July,2017,7.2,4.3,16,170,1600,Non Complying
+Mutha,Veer Savarkar Bhavan,July,2018,7,3.6,16.5,250,1800+,Non Complying
+Mutha,Veer Savarkar Bhavan,July,2019,7.6,3.6,7.5,1800+,1800+,Non Complying
+Mutha,Veer Savarkar Bhavan,July,2020,7.8,4.9,14,425,1800,Non Complying
+Mutha,Veer Savarkar Bhavan,July,2021,7.47,4.2,16.5,425,1800,Non Complying
+Mutha,Veer Savarkar Bhavan,July,2022,7.3,4.6,13.5,25,425,Non Complying
+Mutha,Veer Savarkar Bhavan,July,2023,7.5,3.8,22,36,1700,Non Complying
+Mutha,Deccan Bridge,July,2017,7.3,4.7,14,195,1600,Non Complying
+Mutha,Deccan Bridge,July,2018,7.1,3.4,25.5,275,1800+,Non Complying
+Mutha,Deccan Bridge,July,2019,7.6,2.1,11,1800+,1800+,Non Complying
+Mutha,Deccan Bridge,July,2020,7.9,5.6,7,550,1800,Non Complying
+Mutha,Deccan Bridge,July,2021,7.42,4.1,17.5,350,1800,Non Complying
+Mutha,Deccan Bridge,July,2022,7.3,4.4,15.5,30,550,Non Complying
+Mutha,Deccan Bridge,July,2023,7.5,3.7,24,36,1700,Non Complying
+Mutha,Khadakvasla Dam,July,2017,7.5,6.6,3.2,4,14,Non Complying
+Mutha,Khadakvasla Dam,July,2018,7.2,6.2,2.5,9,225,Complying
+Mutha,Khadakvasla Dam,July,2019,8,6.9,2.2,8,195,Complying
+Mutha,Khadakvasla Dam,July,2020,7.9,6.7,3,2,65,Complying
+Mutha,Khadakvasla Dam,July,2021,8.3,6.6,3.2,8,65,Non Complying
+Mutha,Khadakvasla Dam,July,2022,8,6,2.2,12,120,Complying
+Mutha,Khadakvasla Dam,July,2023,7.8,6.1,3,7,140,Complying
+Mula,Aundh Bridge,August,2017,8.1,6.4,6.6,250,1600,Non Complying
+Mula,Aundh Bridge,August,2018,8.2,3.5,8.2,250,1800+,Non Complying
+Mula,Aundh Bridge,August,2019,7.3,3.1,7.5,550,1800,Non Complying
+Mula,Aundh Bridge,August,2020,8.3,5.6,9.5,250,1800,Non Complying
+Mula,Aundh Bridge,August,2021,7.71,5.1,8.2,225,900,Non Complying
+Mula,Aundh Bridge,August,2022,7.5,4.8,7.2,12,275,Non Complying
+Mula,Aundh Bridge,August,2023,7.6,5,8,25,425,Non Complying
+Mula,Harrison Bridge,August,2017,8.1,6.3,6.8,275,1800+,Non Complying
+Mula,Harrison Bridge,August,2018,8,2.8,7.5,200,1800+,Non Complying
+Mula,Harrison Bridge,August,2019,7.4,3.2,9,900,1800,Non Complying
+Mula,Harrison Bridge,August,2020,7.9,5.4,10,275,1800,Non Complying
+Mula,Harrison Bridge,August,2021,7.7,5.3,7.8,200,1600,Non Complying
+Mula,Harrison Bridge,August,2022,7.5,4.9,6.8,20,350,Non Complying
+Mula,Harrison Bridge,August,2023,7.6,4.3,15,21,275,Non Complying
+Mula-Mutha,Mundhawa Bridge,August,2017,8.1,6,7.2,225,1600,Non Complying
+Mula-Mutha,Mundhawa Bridge,August,2018,8,3.8,8.5,350,1800+,Non Complying
+Mula-Mutha,Mundhawa Bridge,August,2019,7.2,2.1,12,900,1800,Non Complying
+Mula-Mutha,Mundhawa Bridge,August,2020,7.9,5.5,10,350,1800,Non Complying
+Mula-Mutha,Mundhawa Bridge,August,2021,7.62,4.7,13.5,200,1600,Non Complying
+Mula-Mutha,Mundhawa Bridge,August,2022,7.4,5.5,4.6,30,900,Non Complying
+Mula-Mutha,Mundhawa Bridge,August,2023,7.7,4.3,16,25,550,Non Complying
+Mula-Mutha,Theur,August,2017,8.2,5.3,12.5,195,900,Non Complying
+Mula-Mutha,Theur,August,2018,7.9,5.3,3.2,250,1800+,Non Complying
+Mula-Mutha,Theur,August,2019,7.1,3.5,7.5,550,1800,Non Complying
+Mula-Mutha,Theur,August,2020,8.1,5.8,6.5,6,250,Non Complying
+Mula-Mutha,Theur,August,2021,7.46,5.6,4.8,25,900,Non Complying
+Mula-Mutha,Theur,August,2022,7.3,4.7,7.8,9,195,Non Complying
+Mula-Mutha,Theur,August,2023,7.7,5,7,14,350,Non Complying
+Mutha,Sangam Bridge,August,2017,8.2,3,19,195,900,Non Complying
+Mutha,Sangam Bridge,August,2018,7.9,3.4,9.5,225,1800+,Non Complying
+Mutha,Sangam Bridge,August,2019,7.3,3.3,10.5,1800,1800,Non Complying
+Mutha,Sangam Bridge,August,2020,8,5.6,9,110,900,Non Complying
+Mutha,Sangam Bridge,August,2021,7.47,4.8,8.2,150,1600,Non Complying
+Mutha,Sangam Bridge,August,2022,7.3,4.2,14.5,30,550,Non Complying
+Mutha,Sangam Bridge,August,2023,7.4,3.2,24,35,550,Non Complying
+Mutha,Veer Savarkar Bhavan,August,2017,8.2,3.1,20,275,1800+,Non Complying
+Mutha,Veer Savarkar Bhavan,August,2018,7.8,3.6,6.8,250,1800+,Non Complying
+Mutha,Veer Savarkar Bhavan,August,2019,7.2,3.1,8.5,900,1800,Non Complying
+Mutha,Veer Savarkar Bhavan,August,2020,8,5.4,10,350,1800,Non Complying
+Mutha,Veer Savarkar Bhavan,August,2021,7.69,4.9,8.2,350,1600,Non Complying
+Mutha,Veer Savarkar Bhavan,August,2022,7.3,4.9,8.5,20,350,Non Complying
+Mutha,Veer Savarkar Bhavan,August,2023,7.5,3.8,21,30,1700,Non Complying
+Mutha,Deccan Bridge,August,2017,8.1,2.9,22,250,1800+,Non Complying
+Mutha,Deccan Bridge,August,2018,7.5,3.2,8,275,1800+,Non Complying
+Mutha,Deccan Bridge,August,2019,7.2,2.2,9.5,1800,550,Non Complying
+Mutha,Deccan Bridge,August,2020,8.1,5.3,11.5,425,1800,Non Complying
+Mutha,Deccan Bridge,August,2021,7.34,5,7.4,275,1600,Non Complying
+Mutha,Deccan Bridge,August,2022,7.3,4.8,9.5,25,425,Non Complying
+Mutha,Deccan Bridge,August,2023,7.5,3.2,24,45,1700,Non Complying
+Mutha,Khadakvasla Dam,August,2017,8.2,7,3.8,2,6,Non Complying
+Mutha,Khadakvasla Dam,August,2018,8.1,6.8,2.2,2,20,Complying
+Mutha,Khadakvasla Dam,August,2019,7.6,6.5,2.2,25,550,Complying
+Mutha,Khadakvasla Dam,August,2020,8.4,6.5,3,2,60,Complying
+Mutha,Khadakvasla Dam,August,2021,7.89,6.3,2.8,6,55,Complying
+Mutha,Khadakvasla Dam,August,2022,8.4,5.8,3.2,6,115,Non Complying
+Mutha,Khadakvasla Dam,August,2023,8,6.2,3,7,170,Complying
+Mula,Aundh Bridge,September,2017,7.1,5,3.2,275,1800,Non Complying
+Mula,Aundh Bridge,September,2018,7.7,3.5,9.8,900,1800+,Non Complying
+Mula,Aundh Bridge,September,2019,7,6.5,2.8,425,1800,Complying
+Mula,Aundh Bridge,September,2020,7.7,5.8,6.5,425,1800,Non Complying
+Mula,Aundh Bridge,September,2021,7.2,4.2,10.5,85,550,Non Complying
+Mula,Aundh Bridge,September,2022,8.3,5.7,7.4,10,225,Non Complying
+Mula,Aundh Bridge,September,2023,7.5,5.4,5.2,35,400,Non Complying
+Mula,Harrison Bridge,September,2017,7.6,4.3,8.2,250,1800,Non Complying
+Mula,Harrison Bridge,September,2018,7.5,1.6,13.5,1800+,1800+,Non Complying
+Mula,Harrison Bridge,September,2019,7,6.6,3,350,1800,Complying
+Mula,Harrison Bridge,September,2020,7.7,5.4,9.5,275,1800,Non Complying
+Mula,Harrison Bridge,September,2021,7.1,4.3,11.5,20,425,Non Complying
+Mula,Harrison Bridge,September,2022,8.2,4.6,8.8,35,900,Non Complying
+Mula,Harrison Bridge,September,2023,7.4,5.1,5.4,110,400,Non Complying
+Mula-Mutha,Mundhawa Bridge,September,2017,7.1,4,15,225,1800,Non Complying
+Mula-Mutha,Mundhawa Bridge,September,2018,7.2,1,15.5,1600,1800+,Non Complying
+Mula-Mutha,Mundhawa Bridge,September,2019,6.8,6.8,2.4,200,1600,Complying
+Mula-Mutha,Mundhawa Bridge,September,2020,7.6,5.7,6.5,275,1800,Non Complying
+Mula-Mutha,Mundhawa Bridge,September,2021,7,5.2,8.6,65,550,Non Complying
+Mula-Mutha,Mundhawa Bridge,September,2022,7.6,4.7,8.5,20,550,Non Complying
+Mula-Mutha,Mundhawa Bridge,September,2023,7.3,4.6,11,55,540,Non Complying
+Mula-Mutha,Theur,September,2017,7.4,4.9,8.6,250,1600,Non Complying
+Mula-Mutha,Theur,September,2018,7.8,4.9,8.4,170,1800+,Non Complying
+Mula-Mutha,Theur,September,2019,7.3,6.6,2.6,110,900,Complying
+Mula-Mutha,Theur,September,2020,7.6,6.1,4.5,17,350,Non Complying
+Mula-Mutha,Theur,September,2021,7.3,5.8,4.4,20,200,Non Complying
+Mula-Mutha,Theur,September,2022,7.6,4.6,8.6,25,550,Non Complying
+Mula-Mutha,Theur,September,2023,7.2,4.8,8.6,40,350,Non Complying
+Mutha,Sangam Bridge,September,2017,7.5,3.8,12.6,275,1600,Non Complying
+Mutha,Sangam Bridge,September,2018,7.6,2.3,10.8,900,1800+,Non Complying
+Mutha,Sangam Bridge,September,2019,6.9,6.2,4,425,1600,Non Complying
+Mutha,Sangam Bridge,September,2020,7.6,5.9,6,250,1600,Non Complying
+Mutha,Sangam Bridge,September,2021,7.1,4.3,11.5,195,900,Non Complying
+Mutha,Sangam Bridge,September,2022,7.4,3.8,13.5,30,900,Non Complying
+Mutha,Sangam Bridge,September,2023,7.1,2.8,24,95,550,Non Complying
+Mutha,Veer Savarkar Bhavan,September,2017,7.4,4.8,7.8,350,1800,Non Complying
+Mutha,Veer Savarkar Bhavan,September,2018,7.4,NIL,12.5,1600,1800+,Non Complying
+Mutha,Veer Savarkar Bhavan,September,2019,7,5.8,5.6,550,1800,Non Complying
+Mutha,Veer Savarkar Bhavan,September,2020,7.5,5.9,6,140,1600,Non Complying
+Mutha,Veer Savarkar Bhavan,September,2021,7.1,4.1,13.5,225,900,Non Complying
+Mutha,Veer Savarkar Bhavan,September,2022,7.9,4,13,10,350,Non Complying
+Mutha,Veer Savarkar Bhavan,September,2023,7.1,2.7,26,80,900,Non Complying
+Mutha,Deccan Bridge,September,2017,7,2.2,22,275,1800,Non Complying
+Mutha,Deccan Bridge,September,2018,7.4,NIL,11,1600,1800+,Non Complying
+Mutha,Deccan Bridge,September,2019,6.9,6.3,4,425,1800,Non Complying
+Mutha,Deccan Bridge,September,2020,7.6,5.6,8,350,1800,Non Complying
+Mutha,Deccan Bridge,September,2021,7.2,4.2,12.5,200,900,Non Complying
+Mutha,Deccan Bridge,September,2022,7.9,4.5,12,35,900,Non Complying
+Mutha,Deccan Bridge,September,2023,7,2.5,28,130,900,Non Complying
+Mutha,Khadakvasla Dam,September,2017,8,7.2,2.8,4,45,Complying
+Mutha,Khadakvasla Dam,September,2018,7.8,6.8,2.2,,35,Complying
+Mutha,Khadakvasla Dam,September,2019,7.7,6.5,2.8,6,20,Complying
+Mutha,Khadakvasla Dam,September,2020,7.5,6.5,3,2,60,Complying
+Mutha,Khadakvasla Dam,September,2021,7.2,6.3,2.8,6,20,Complying
+Mutha,Khadakvasla Dam,September,2022,8.2,6.2,2.2,6,95,Complying
+Mutha,Khadakvasla Dam,September,2023,8,6.3,2.6,30,195,Complying
+Mula,Aundh Bridge,October,2017,7.6,5.6,6.8,200,1600,Non Complying
+Mula,Aundh Bridge,October,2018,7.4,2.4,8.8,250,1800+,Non Complying
+Mula,Aundh Bridge,October,2019,8,7,3,1600,1800,Complying
+Mula,Aundh Bridge,October,2020,8.1,5.4,7.5,350,1800,Non Complying
+Mula,Aundh Bridge,October,2021,7.6,5.2,9.5,9,110,Non Complying
+Mula,Aundh Bridge,October,2022,7.4,5.5,4.4,10,225,Non Complying
+Mula,Aundh Bridge,October,2023,7.4,5,9,45,350,Non Complying
+Mula,Harrison Bridge,October,2017,8,4.4,11,275,1800+,Non Complying
+Mula,Harrison Bridge,October,2018,7.3,2.5,8.5,250,1800+,Non Complying
+Mula,Harrison Bridge,October,2019,7.8,5.8,6,1800,1800,Non Complying
+Mula,Harrison Bridge,October,2020,7.9,5.4,7,225,1800,Non Complying
+Mula,Harrison Bridge,October,2021,7.7,4.8,10,20,550,Non Complying
+Mula,Harrison Bridge,October,2022,7.6,4.9,8.5,20,550,Non Complying
+Mula,Harrison Bridge,October,2023,7.2,4.1,13,110,540,Non Complying
+Mula-Mutha,Mundhawa Bridge,October,2017,7.5,4.3,10.5,250,1600,Non Complying
+Mula-Mutha,Mundhawa Bridge,October,2018,7.6,2.3,16.5,250,1800+,Non Complying
+Mula-Mutha,Mundhawa Bridge,October,2019,7.9,6.6,2.8,550,1800,Complying
+Mula-Mutha,Mundhawa Bridge,October,2020,8.1,5.7,8.5,200,1600,Non Complying
+Mula-Mutha,Mundhawa Bridge,October,2021,7.5,5.5,8.6,35,170,Non Complying
+Mula-Mutha,Mundhawa Bridge,October,2022,7.5,4.8,11.5,20,550,Non Complying
+Mula-Mutha,Mundhawa Bridge,October,2023,7.1,4.2,15,140,540,Non Complying
+Mula-Mutha,Theur,October,2017,7.7,4.9,8.5,120,900,Non Complying
+Mula-Mutha,Theur,October,2018,7.5,5.2,3.8,120,900,Non Complying
+Mula-Mutha,Theur,October,2019,8.2,6.6,2.8,70,900,Complying
+Mula-Mutha,Theur,October,2020,7.8,6,6,8,200,Non Complying
+Mula-Mutha,Theur,October,2021,7.4,5.7,6.8,20,425,Non Complying
+Mula-Mutha,Theur,October,2022,7.4,5.1,7.8,14,550,Non Complying
+Mula-Mutha,Theur,October,2023,7.2,4.9,9,65,350,Non Complying
+Mutha,Sangam Bridge,October,2017,7.5,4.1,14,65,550,Non Complying
+Mutha,Sangam Bridge,October,2018,7.7,2.9,8.6,200,1600,Non Complying
+Mutha,Sangam Bridge,October,2019,7.7,5.9,5.5,1800,1800,Non Complying
+Mutha,Sangam Bridge,October,2020,7.9,5.6,9,75,900,Non Complying
+Mutha,Sangam Bridge,October,2021,7.6,6.2,5,45,1600,Non Complying
+Mutha,Sangam Bridge,October,2022,7.4,4.8,12.5,30,900,Non Complying
+Mutha,Sangam Bridge,October,2023,7.5,3,30,350,1600,Non Complying
+Mutha,Veer Savarkar Bhavan,October,2017,7.4,3.8,16,275,1800+,Non Complying
+Mutha,Veer Savarkar Bhavan,October,2018,7.7,2.4,10.5,275,1800+,Non Complying
+Mutha,Veer Savarkar Bhavan,October,2019,8,6,5,1800,1800,Non Complying
+Mutha,Veer Savarkar Bhavan,October,2020,8.3,5.8,8,200,1800,Non Complying
+Mutha,Veer Savarkar Bhavan,October,2021,7.6,4.6,14,50,1800,Non Complying
+Mutha,Veer Savarkar Bhavan,October,2022,7.4,4.6,12.5,25,550,Non Complying
+Mutha,Veer Savarkar Bhavan,October,2023,7.2,3.4,23,250,1600,Non Complying
+Mutha,Deccan Bridge,October,2017,7.4,3.6,19,250,1800+,Non Complying
+Mutha,Deccan Bridge,October,2018,7.6,2.7,9.5,350,1800+,Non Complying
+Mutha,Deccan Bridge,October,2019,7.8,5.6,7,1800,1800,Non Complying
+Mutha,Deccan Bridge,October,2020,8,5.6,6.5,250,1800,Non Complying
+Mutha,Deccan Bridge,October,2021,7.9,4.5,14.5,65,1600,Non Complying
+Mutha,Deccan Bridge,October,2022,7.2,4.5,12.5,30,900,Non Complying
+Mutha,Deccan Bridge,October,2023,7.2,3.2,25,200,1600,Non Complying
+Mutha,Khadakvasla Dam,October,2017,7.9,6.7,3.2,140,900,Non Complying
+Mutha,Khadakvasla Dam,October,2018,8,6.2,2.4,10,200,Complying
+Mutha,Khadakvasla Dam,October,2019,8.1,6.7,2.6,5,140,Complying
+Mutha,Khadakvasla Dam,October,2020,7.3,6.5,3,2,45,Complying
+Mutha,Khadakvasla Dam,October,2021,7.7,6.5,2.6,2,11,Complying
+Mutha,Khadakvasla Dam,October,2022,8,6.4,2.6,6,95,Complying
+Mutha,Khadakvasla Dam,October,2023,7.5,6.2,2.8,25,250,Complying
+Mula,Aundh Bridge,November,2017,7.9,5.2,5.4,275,1800+,Non Complying
+Mula,Aundh Bridge,November,2018,7.4,1.9,9,350,1800+,Non Complying
+Mula,Aundh Bridge,November,2019,8.3,6.7,2.8,1600,1800,Complying
+Mula,Aundh Bridge,November,2020,8.1,5.5,8.8,350,1800,Non Complying
+Mula,Aundh Bridge,November,2021,7.3,6.2,2.5,30,900,Complying
+Mula,Aundh Bridge,November,2022,7.2,4.8,7.9,10,250,Non Complying
+Mula,Aundh Bridge,November,2023,7.6,4.3,16,195,1600,Non Complying
+Mula,Harrison Bridge,November,2017,8.3,4.6,11.5,250,1600,Non Complying
+Mula,Harrison Bridge,November,2018,7.5,1.6,10.5,350,1800+,Non Complying
+Mula,Harrison Bridge,November,2019,8.1,6.5,3,1800,1800,Complying
+Mula,Harrison Bridge,November,2020,8.1,5.4,8.4,250,1800,Non Complying
+Mula,Harrison Bridge,November,2021,7,5.4,6,20,550,Non Complying
+Mula,Harrison Bridge,November,2022,7.3,4.6,10.1,20,550,Non Complying
+Mula,Harrison Bridge,November,2023,7.5,3.9,23,225,1600,Non Complying
+Mula-Mutha,Mundhawa Bridge,November,2017,8.4,4,13,225,1600,Non Complying
+Mula-Mutha,Mundhawa Bridge,November,2018,7.3,1.2,13.5,250,1800+,Non Complying
+Mula-Mutha,Mundhawa Bridge,November,2019,8,6.6,3,350,1800,Complying
+Mula-Mutha,Mundhawa Bridge,November,2020,8.2,5.5,8.2,225,1600,Non Complying
+Mula-Mutha,Mundhawa Bridge,November,2021,7.2,6.3,3,35,170,Complying
+Mula-Mutha,Mundhawa Bridge,November,2022,7.3,4.4,11.4,20,550,Non Complying
+Mula-Mutha,Mundhawa Bridge,November,2023,7.5,4.2,21,170,900,Non Complying
+Mula-Mutha,Theur,November,2017,8.1,4.2,13.5,110,900,Non Complying
+Mula-Mutha,Theur,November,2018,7.2,3.2,5,110,900,Non Complying
+Mula-Mutha,Theur,November,2019,7.9,5.7,5.8,140,900,Non Complying
+Mula-Mutha,Theur,November,2020,8,6.7,3.8,8,250,Non Complying
+Mula-Mutha,Theur,November,2021,7.2,6.1,3.5,17,425,Non Complying
+Mula-Mutha,Theur,November,2022,7.3,5.4,7.1,17,550,Non Complying
+Mula-Mutha,Theur,November,2023,7.2,4.7,11,70,550,Non Complying
+Mutha,Sangam Bridge,November,2017,8.2,3.9,16,225,1600,Non Complying
+Mutha,Sangam Bridge,November,2018,7,1.8,10.5,275,1800+,Non Complying
+Mutha,Sangam Bridge,November,2019,7.7,6.1,4.4,550,1800,Non Complying
+Mutha,Sangam Bridge,November,2020,7.9,5.4,8.4,80,900,Non Complying
+Mutha,Sangam Bridge,November,2021,7.2,4.2,9.5,40,1600,Non Complying
+Mutha,Sangam Bridge,November,2022,7.3,4.3,11.4,35,900,Non Complying
+Mutha,Sangam Bridge,November,2023,7.3,3.4,27,250,1800,Non Complying
+Mutha,Veer Savarkar Bhavan,November,2017,8.2,4.3,12.5,250,1800+,Non Complying
+Mutha,Veer Savarkar Bhavan,November,2018,7.1,2.4,9,425,1800+,Non Complying
+Mutha,Veer Savarkar Bhavan,November,2019,7.9,6.3,4.2,1800,1800,Non Complying
+Mutha,Veer Savarkar Bhavan,November,2020,8,5.3,9.5,225,1800,Non Complying
+Mutha,Veer Savarkar Bhavan,November,2021,7.2,5.2,7,50,1800,Non Complying
+Mutha,Veer Savarkar Bhavan,November,2022,7.2,4.3,12.4,30,900,Non Complying
+Mutha,Veer Savarkar Bhavan,November,2023,7.3,3.6,29,275,1800,Non Complying
+Mutha,Deccan Bridge,November,2017,8.2,4.4,12.5,275,1800+,Non Complying
+Mutha,Deccan Bridge,November,2018,7,2.1,8.5,350,1800+,Non Complying
+Mutha,Deccan Bridge,November,2019,7.7,5.3,6.2,1800,1800,Non Complying
+Mutha,Deccan Bridge,November,2020,8.1,5.7,8.8,275,1800,Non Complying
+Mutha,Deccan Bridge,November,2021,7.1,4.9,7.5,65,1600,Non Complying
+Mutha,Deccan Bridge,November,2022,7.2,4.1,13.4,30,900,Non Complying
+Mutha,Deccan Bridge,November,2023,7.3,3.5,28,250,1800,Non Complying
+Mutha,Khadakvasla Dam,November,2017,8,6.5,2.6,6,40,Complying
+Mutha,Khadakvasla Dam,November,2018,7.9,6.4,2.2,7,170,Complying
+Mutha,Khadakvasla Dam,November,2019,8,6.5,3.2,4,110,Non Complying
+Mutha,Khadakvasla Dam,November,2020,7.6,6.8,3.2,2,40,Non Complying
+Mutha,Khadakvasla Dam,November,2021,7.6,6.5,2.5,2,4,Complying
+Mutha,Khadakvasla Dam,November,2022,7.6,6.6,2.4,6,95,Complying
+Mutha,Khadakvasla Dam,November,2023,7.9,5.8,3.2,12,200,Non Complying
+Mula,Aundh Bridge,December,2017,7.8,4.8,7.2,275,1800+,Non Complying
+Mula,Aundh Bridge,December,2018,7.93,1.7,9.5,250,1800+,Non Complying
+Mula,Aundh Bridge,December,2019,8,5,15,1800,1800,Non Complying
+Mula,Aundh Bridge,December,2020,7.2,4.4,9,350,1800,Non Complying
+Mula,Aundh Bridge,December,2021,7.6,4.7,9.8,35,350,Non Complying
+Mula,Aundh Bridge,December,2022,7.6,4.3,10.4,10,225,Non Complying
+Mula,Aundh Bridge,December,2023,7.2,4.7,9,80,550,Non Complying
+Mula,Harrison Bridge,December,2017,7.9,3.8,14,225,1800+,Non Complying
+Mula,Harrison Bridge,December,2018,7.79,1.4,10.5,250,1800+,Non Complying
+Mula,Harrison Bridge,December,2019,,,,,,
+Mula,Harrison Bridge,December,2020,7.3,4.3,9.5,150,1600,Non Complying
+Mula,Harrison Bridge,December,2021,7.4,4.3,8.4,62,900,Non Complying
+Mula,Harrison Bridge,December,2022,7.2,4.1,16.9,20,550,Non Complying
+Mula,Harrison Bridge,December,2023,7.3,4.1,19,225,900,Non Complying
+Mula-Mutha,Mundhawa Bridge,December,2017,8.1,3.4,16,250,1600,Non Complying
+Mula-Mutha,Mundhawa Bridge,December,2018,7.75,1.4,9.5,200,1600,Non Complying
+Mula-Mutha,Mundhawa Bridge,December,2019,,,,,,
+Mula-Mutha,Mundhawa Bridge,December,2020,7.6,4.8,8.8,250,1600,Non Complying
+Mula-Mutha,Mundhawa Bridge,December,2021,7.4,4.1,9.5,35,350,Non Complying
+Mula-Mutha,Mundhawa Bridge,December,2022,7.5,4.2,12.4,20,550,Non Complying
+Mula-Mutha,Mundhawa Bridge,December,2023,7.1,4.4,14,85,900,Non Complying
+Mula-Mutha,Theur,December,2017,8.1,4.6,8.2,200,1600,Non Complying
+Mula-Mutha,Theur,December,2018,7.56,3.6,4.5,110,900,Non Complying
+Mula-Mutha,Theur,December,2019,7.6,4.8,12,60,900,Non Complying
+Mula-Mutha,Theur,December,2020,7.4,6.3,3.2,9,275,Non Complying
+Mula-Mutha,Theur,December,2021,7.2,5.3,5.6,6,350,Non Complying
+Mula-Mutha,Theur,December,2022,7.8,5.1,7.5,25,550,Non Complying
+Mula-Mutha,Theur,December,2023,7.1,4.6,13.5,40,350,Non Complying
+Mutha,Sangam Bridge,December,2017,8.2,3.9,16,225,1600,Non Complying
+Mutha,Sangam Bridge,December,2018,7.81,1.7,8.8,250,1600,Non Complying
+Mutha,Sangam Bridge,December,2019,,,-,,,
+Mutha,Sangam Bridge,December,2020,7.2,4.5,8.6,95,900,Non Complying
+Mutha,Sangam Bridge,December,2021,7.5,4.7,9.2,25,500,Non Complying
+Mutha,Sangam Bridge,December,2022,7.3,4.1,16.4,25,900,Non Complying
+Mutha,Sangam Bridge,December,2023,7.1,3.6,28,350,1600,Non Complying
+Mutha,Veer Savarkar Bhavan,December,2017,7.6,3.4,15,275,1800+,Non Complying
+Mutha,Veer Savarkar Bhavan,December,2018,7.67,1.4,11.5,275,1800+,Non Complying
+Mutha,Veer Savarkar Bhavan,December,2019,,,,,,
+Mutha,Veer Savarkar Bhavan,December,2020,7.2,4.3,9,250,1800,Non Complying
+Mutha,Veer Savarkar Bhavan,December,2021,7.3,4.9,7.4,35,550,Non Complying
+Mutha,Veer Savarkar Bhavan,December,2022,7.8,4,18.4,17,550,Non Complying
+Mutha,Veer Savarkar Bhavan,December,2023,7,3.5,26,350,1600,Non Complying
+Mutha,Deccan Bridge,December,2017,7.6,3.4,18,275,1800+,Non Complying
+Mutha,Deccan Bridge,December,2018,7.63,1.8,11,275,1800+,Non Complying
+Mutha,Deccan Bridge,December,2019,,,,,,
+Mutha,Deccan Bridge,December,2020,7.3,4.5,9.5,250,1800,Non Complying
+Mutha,Deccan Bridge,December,2021,7.3,4.8,7.6,45,900,Non Complying
+Mutha,Deccan Bridge,December,2022,7.7,4,17.9,35,900,Non Complying
+Mutha,Deccan Bridge,December,2023,7,3.2,29,550,1600,Non Complying
+Mutha,Khadakvasla Dam,December,2017,8.2,6.2,2.6,4,20,Complying
+Mutha,Khadakvasla Dam,December,2018,7.51,6.6,2,6,250,Complying
+Mutha,Khadakvasla Dam,December,2019,7.9,6,5,2,50,Non Complying
+Mutha,Khadakvasla Dam,December,2020,8.1,6.2,3.2,2,50,Non Complying
+Mutha,Khadakvasla Dam,December,2021,7.7,5.2,7.4,<1.8,5,Non Complying
+Mutha,Khadakvasla Dam,December,2022,8,6.6,2.2,9,115,Complying
+Mutha,Khadakvasla Dam,December,2023,7.4,6.2,2.8,40,350,Complying
