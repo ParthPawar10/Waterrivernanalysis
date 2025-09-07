@@ -1,0 +1,636 @@
+:root{
+	--bg:#eaf4ff;
+	--card:#ffffff;
+	--primary:#1976d2;
+	--muted:#5b6b77;
+	--accent:#4fc3f7;
+}
+.home-root, html, body { height: 100%; }
+body{font-family:Inter,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);margin:0;color:#1f2937;min-height:100vh}
+.page{display:flex;min-height:100vh}
+.sidebar{width:300px;padding:20px;background:linear-gradient(180deg,var(--primary),#0d47a1);color:#fff;display:flex;flex-direction:column}
+.brand{display:flex;gap:12px;align-items:center;margin-bottom:18px}
+.brand h1{margin:0;font-size:20px}
+.brand p{margin:0;font-size:12px;opacity:0.9}
+.legend{margin:12px 0 6px 0;font-size:13px}
+.dot{display:inline-block;width:12px;height:12px;border-radius:50%;margin-right:8px}
+.dot.blue{background:#2196F3}
+.dot.teal{background:#1976D2}
+.dot.orange{background:#FF9800}
+.sidebar-info{margin-top:8px;color:#eaf6ff}
+.sidebar-info h3{color:#fff;margin:8px 0;font-size:16px}
+.river-list{list-style:none;padding:0;margin:6px 0}
+.river-list li{margin-bottom:10px}
+.river-desc{font-size:12px;color:rgba(255,255,255,0.85);margin-top:4px}
+.param-names{list-style:none;padding:0;margin:6px 0;color:#eaf6ff}
+.param-names li{font-size:13px;margin:4px 0}
+
+.main{flex:1;display:grid;grid-template-columns:1fr 380px;gap:16px;padding:18px;position:relative}
+.map{height:calc(100vh - 36px);border-radius:12px;overflow:hidden;box-shadow:0 8px 30px rgba(16,24,40,0.08);z-index:0}
+.detail-panel{background:linear-gradient(180deg,#ffffff,#fbfdff);padding:18px;border-radius:14px;border:1px solid rgba(12,38,56,0.04);box-shadow:0 10px 30px rgba(12,38,56,0.06);height:calc(100vh - 36px);overflow:auto;position:relative;z-index:50}
+.detail-panel{--river-color:var(--primary)}
+.muted{color:var(--muted)}
+.placeholder{color:var(--muted);padding:12px}
+
+pre{background:#f6fbff;padding:12px;border-radius:8px;overflow:auto}
+
+.brand svg{flex-shrink:0}
+
+.popup-card{min-width:200px}
+.popup-card .muted{margin-top:4px;font-size:12px}
+.popup-prediction{margin-top:8px}
+.popup-header{display:flex;flex-direction:column;margin-bottom:8px}
+.popup-title{font-size:16px}
+.popup-sub{font-size:12px}
+.param-list{list-style:none;padding:0;margin:0}
+.popup-grid{display:block;gap:6px}
+.popup-card .param-row{display:grid;grid-template-columns:1fr 140px;align-items:center;padding:6px 0;border-bottom:1px solid rgba(0,0,0,0.04);gap:12px}
+.popup-card .param-name{font-size:13px;color:#33475b;font-weight:700}
+.popup-card .param-value{display:flex;align-items:center;gap:8px;justify-content:flex-end}
+.popup-card .val-text{min-width:80px;text-align:right;white-space:nowrap;display:inline-block}
+.popup-card .badge{padding:6px 10px;border-radius:12px;display:inline-flex;align-items:center;height:28px}
+.val-text{font-weight:700}
+.quality-val{padding:4px 8px;border-radius:12px;color:#fff}
+.quality .value.quality-val{background:#1976d2}
+
+.badge{margin-left:8px;padding:6px 10px;border-radius:999px;color:#fff;font-size:13px;box-shadow:0 2px 6px rgba(16,24,40,0.08)}
+.status-good{background:#4caf50}
+.status-moderate{background:#ff9800}
+.status-poor{background:#f44336}
+.status-na{background:#9e9e9e}
+
+/* river-colored text for headings and param labels */
+.detail-panel h2, .detail-panel h3 { color: var(--river-color); margin-top:6px }
+.detail-panel .param { color: var(--river-color); font-weight:700 }
+.detail-panel .param-value .badge { margin-left:0 }
+
+.date-control{margin-bottom:12px;display:flex;flex-direction:column;gap:6px}
+.date-control label{font-size:13px;color:var(--muted)}
+/* hide month/year selectors visually while keeping markup for accessibility if needed */
+.date-control input[type="month"]{display:none}
+
+.selected-date{font-size:14px;color:#273142;margin-bottom:10px}
+
+/* Inline calendar (top-right) */
+.detail-calendar{padding-bottom:12px}
+.detail-calendar .inline-calendar{position:static;width:100%;box-shadow:none;border:1px solid rgba(0,0,0,0.06);background:#fff}
+.detail-panel .cal-head{padding:6px 10px;display:flex;gap:8px;align-items:center}
+.detail-panel .cal-head select{padding:6px 8px;border-radius:6px;border:1px solid #d9e9fb;background:#fff;min-width:110px;appearance:auto;-webkit-appearance:menulist;color:#0b3b52}
+.detail-panel .cal-head select option{color:#0b3b52}
+.cal-select{min-width:86px;display:inline-block;background:#fff;color:#0b3b52;border:1px solid #d9e9fb;padding:6px;border-radius:6px}
+.cal-select:focus{outline:none;box-shadow:0 2px 6px rgba(25,118,210,0.08)}
+.detail-panel .cal-head select:focus{outline:none;box-shadow:0 2px 6px rgba(25,118,210,0.08)}
+.detail-panel .cal-head button{background:transparent;border:1px solid #d9e9fb;padding:6px 8px;border-radius:6px}
+.detail-panel .cal-head .cal-select{display:inline-block !important;visibility:visible !important;opacity:1 !important;background:#fff !important;color:#0b3b52 !important;border:1px solid #d9e9fb !important;min-width:110px !important;padding:6px 8px !important;z-index:9999 !important}
+.detail-panel .cal-title{color:var(--river-color);font-weight:700}
+.detail-panel .cal-grid{padding:6px;gap:6px}
+.detail-panel .cal-grid{display:grid;grid-template-columns:repeat(7,1fr);align-items:center;gap:6px;padding:8px}
+.detail-panel .cal-weekday{font-size:13px;color:#374151;text-align:center;font-weight:600}
+.detail-panel .cal-day{height:40px;background:#f9fbfe;border:1px solid #e6f0fb;border-radius:6px;padding:0}
+.detail-panel .cal-day button{width:100%;height:100%;background:transparent;border:0;font-weight:600}
+.detail-panel .cal-day.selected{background:var(--river-color);color:#fff}
+.detail-panel .cal-day.selected button{color:#fff}
+.detail-panel .cal-day.today{box-shadow:inset 0 0 0 2px rgba(0,0,0,0.03)}
+
+/* right panel parameter list (selected location) */
+.param-list.large{padding-top:8px}
+.param-list.large li{display:grid;grid-template-columns:1fr 150px;align-items:center;padding:8px 6px;border-bottom:1px dashed #eef8ff}
+.param-list.large li:last-child{border-bottom:none}
+.param-list.large .param{font-size:14px}
+.param-list.large .value{font-weight:700;color:#233249;display:flex;justify-content:flex-end;align-items:center;gap:10px}
+.quality{display:flex;align-items:center;gap:12px;padding-top:8px}
+
+/* popup tweaks */
+.popup-card .param-row{background:transparent;padding:4px;border-radius:4px}
+.popup-card .badge{box-shadow:none;font-size:12px;padding:4px 8px}
+
+/* Today button styling and footer */
+.cal-footer{padding:10px}
+.cal-footer button{width:100%;padding:8px 10px;border-radius:8px;border:0;background:var(--river-color);color:#fff;font-weight:600;font-size:13px;box-shadow:0 4px 10px rgba(25,118,210,0.12)}
+.cal-footer button:hover{filter:brightness(0.95);cursor:pointer}
+
+/* Slightly reduce typography in the right panel for compactness */
+.detail-panel .selected-date{font-size:13px;color:#475569;margin-bottom:8px}
+.detail-panel h2{font-size:18px;margin-bottom:6px}
+.detail-panel h3{font-size:15px;margin-bottom:8px}
+.param-list.large .param{font-size:13px}
+.param-list.large .value{font-size:13px}
+.badge{font-size:12px;padding:5px 9px}
+
+/* sidebar inline prediction rows (used in App.js) */
+.detail-panel .inline-param-row{display:grid;grid-template-columns:1fr 140px;align-items:center;padding:8px 0;border-bottom:1px dashed #eef8ff;gap:12px}
+.detail-panel .inline-param-row .label{color:#33475b;font-weight:700}
+.detail-panel .inline-param-row .value{display:flex;align-items:center;gap:8px;justify-content:flex-end}
+.detail-panel .inline-param-row .val-text{min-width:80px;text-align:right}
+
+/* small screens: keep layout tight */
+@media (max-width:420px){
+	.detail-panel{padding:14px}
+	.detail-panel h2{font-size:17px}
+	.param-list.large li{grid-template-columns:1fr 120px}
+}
+
+/* controls row: wrap buttons and inputs when space is tight */
+.controls-row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.controls-row button{padding:6px 8px;border-radius:6px;border:1px solid #d9e9fb;background:#fff}
+.controls-row input[type="number"]{width:72px;padding:6px;border-radius:6px;border:1px solid #e6eefb}
+
+.small{padding:6px 8px;border-radius:6px;border:1px solid #d9e9fb;background:#fff}
+.small.primary{background:var(--river-color);color:#fff;border-color:transparent}
+.small[disabled]{opacity:0.5;pointer-events:none}
+
+.control-card{background:#fff;border:1px solid rgba(6,86,128,0.04);padding:12px;border-radius:10px}
+.input-box{width:84px;padding:8px;border-radius:8px;border:1px solid #e6eefb}
+.coord-row{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:8px}
+.coord-box{flex:1;background:#fbfdff;border:1px solid #e6f0fb;padding:8px;border-radius:8px;display:flex;flex-direction:column;justify-content:center}
+.coord-label{font-size:12px;color:#64748b;margin-bottom:6px}
+.coord-text{font-weight:700;color:#233249}
+.coord-actions{display:flex;align-items:center;gap:6px}
+.btn-primary{background:var(--river-color);color:#fff;border:0;padding:8px 14px;border-radius:8px}
+.btn-primary[disabled]{opacity:0.6;pointer-events:none}
+.coord-input{width:100%;padding:8px 10px;border-radius:6px;border:1px solid #e6eefb;font-weight:700;height:40px}
+.coord-actions .small{padding:6px 8px;display:inline-flex;align-items:center;justify-content:center;min-width:36px;height:36px;border-radius:8px}
+.coord-actions .small svg{width:14px;height:14px}
+
+@media (max-width:900px){
+	.main{grid-template-columns:1fr 320px}
+}
+
+.map{position:relative}
+
+/* make sure leaflet panes don't float above the detail panel */
+.map .leaflet-pane{z-index:0}
+
+/* top nav */
+.top-nav{position:fixed;left:320px;right:0;top:10px;display:flex;gap:8px;padding:8px 12px;z-index:60}
+.top-nav button{background:#fff;border:1px solid #e6eefb;padding:6px 10px;border-radius:6px}
+.top-nav button.active{background:var(--river-color);color:#fff;border-color:transparent}
+
+/* Home page with water-themed gradients */
+.home-page{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:100%;
+  min-height:100vh;
+  /* softened, light water-themed background instead of dark blue */
+  background:linear-gradient(135deg, #e9f9ff 0%, #dff6ff 40%, #f2fdff 100%);
+  position:relative;
+  overflow:hidden;
+}
+
+.home-page::before{
+  content:'';
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 20"><defs><linearGradient id="wave" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="rgba(255,255,255,0.1)"/><stop offset="100%" stop-color="rgba(255,255,255,0.02)"/></linearGradient></defs><path d="M0,10 Q25,0 50,10 T100,10 L100,20 L0,20 Z" fill="url(%23wave)"/></svg>') repeat-x;
+  background-size:200px 40px;
+  animation:wave 20s linear infinite;
+  opacity:0.3;
+}
+
+@keyframes wave{
+  0%{background-position-x:0}
+  100%{background-position-x:200px}
+}
+
+.home-card{
+  max-width:1100px;
+  width: min(1100px, 96%);
+  margin: auto; /* center horizontally */
+  background:rgba(255,255,255,0.985);
+  backdrop-filter:blur(8px);
+  border: none;
+  padding:42px 44px;
+  border-radius:18px;
+  box-shadow:0 10px 30px rgba(12,38,56,0.06);
+  position:relative;
+  z-index:10;
+}
+
+/* removed the colored outline for a cleaner, lighter card */
+
+.home-hero{
+  display:flex;
+  align-items:center;
+  gap:16px;
+  margin-bottom:24px;
+}
+
+.home-hero .logo{
+  background:linear-gradient(135deg, #1976d2, #0ea5e9);
+  padding:16px;
+  border-radius:50%;
+  box-shadow:0 8px 25px rgba(25,118,210,0.3);
+}
+
+.home-hero h1{
+  margin:0;
+  font-size:36px;
+  font-weight:800;
+  color:#083044; /* solid deep-blue for clarity */
+}
+
+.home-hero .muted{
+  margin:4px 0 0 0;
+  color:#64748b;
+  font-size:15px;
+}
+
+.home-card > p{
+  font-size:15px;
+  line-height:1.6;
+  color:#33475b;
+  margin-bottom:22px;
+  text-align:center;
+  max-width:860px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.columns{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:28px;
+  margin:28px 0;
+  align-items:start;
+}
+
+.col{
+  background:transparent; /* keep card clean; inner columns use subtle divisions */
+  backdrop-filter:blur(2px);
+  padding:18px 12px;
+  border-radius:12px;
+  border: none;
+  box-shadow:none;
+  position:relative;
+  overflow:visible;
+  transition:transform .18s ease, box-shadow .18s ease;
+}
+
+.col::before{
+  content:'';
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  height:4px;
+  background:linear-gradient(90deg, #3b82f6, #0ea5e9, #67e8f9);
+}
+
+.col.rivers::before{
+  background:linear-gradient(90deg, #2196F3, #1976D2, #FF9800);
+}
+
+.col.params::before{
+  background:linear-gradient(90deg, #10b981, #06b6d4, #8b5cf6);
+}
+
+.col h3{
+  margin:0 0 16px 0;
+  font-size:20px;
+  font-weight:700;
+  color:#1e293b;
+}
+
+.river-item{
+  margin-bottom:14px;
+  padding:8px 6px;
+  background:transparent;
+  border-radius:8px;
+  border-left:4px solid rgba(15,76,129,0.08);
+  transition:transform .15s ease, box-shadow .15s ease;
+}
+
+/* visual tweaks: center column elevated + hover lift for all */
+.columns .center{transform:translateY(-12px)}
+.col:hover{transform:translateY(-6px);box-shadow:0 18px 40px rgba(3,18,34,0.08)}
+
+.river-item:hover{
+  transform:translateY(-2px);
+  box-shadow:0 8px 25px rgba(0,0,0,0.1);
+}
+
+.river-item:nth-child(1){border-left-color:#2196F3}
+.river-item:nth-child(2){border-left-color:#1976D2}
+.river-item:nth-child(3){border-left-color:#FF9800}
+
+.river-name{
+  font-weight:700;
+  font-size:16px;
+  color:#0b3b52;
+  display:block;
+}
+
+/* river tag pills used in popups and detail panel */
+.river-tag{
+  display:inline-block;
+  padding:6px 10px;
+  border-radius:999px;
+  font-weight:700;
+  color:#fff;
+  font-size:13px;
+  margin-right:8px;
+  box-shadow:0 6px 18px rgba(3,18,34,0.06);
+}
+.river-tag.mula{ background: linear-gradient(90deg,#2196F3,#1976D2) }
+.river-tag.mutha{ background: linear-gradient(90deg,#0ea5e9,#0369a1) }
+.river-tag.mula-mutha{ background: linear-gradient(90deg,#ff9800,#ff6b00) }
+
+/* also color the small river names on home card */
+.river-name.river-mula{ color:#1565c0 }
+.river-name.river-mutha{ color:#0ea5e9 }
+.river-name.river-mula-mutha{ color:#ff6b00 }
+
+.river-desc{
+  font-size:15px;
+  color:#475569;
+  line-height:1.6;
+  margin-top:6px;
+}
+
+.param-names li{
+  background:transparent;
+  padding:8px 6px;
+  border-radius:6px;
+  margin-bottom:10px;
+  border-left:3px solid rgba(6,182,212,0.08);
+  transition:transform .12s ease;
+}
+
+/* decorative soft wave on the page bottom-right */
+.home-page::after{
+  content:'';
+  position:absolute;
+  right:-120px;
+  bottom:-120px;
+  width:520px;
+  height:520px;
+  background:radial-gradient(circle at 30% 30%, rgba(6,182,212,0.06), rgba(11,99,168,0.02));
+  border-radius:50%;
+  z-index:5;
+  pointer-events:none;
+}
+
+.param-names li:hover{
+  transform:translateX(4px);
+}
+
+.param-names strong{
+  color:#1e293b;
+  font-size:15px;
+}
+
+.param-names .desc{
+  margin-top:4px;
+  font-size:15px;
+  color:#64748b;
+  line-height:1.5;
+}
+
+/* normalize body text for home card columns */
+.home-card, .home-card .col, .home-card .col .desc, .home-card .col .river-desc, .param-names li, .home-hero .muted {
+  font-family:inherit;
+  font-size:15px;
+}
+
+.center{
+  text-align:center;
+}
+
+.center p{
+  font-size:15px;
+  line-height:1.6;
+  margin-bottom:16px;
+}
+
+.home-cta{
+  display:flex;
+  gap:16px;
+  justify-content:center;
+  margin-top:40px;
+  flex-wrap:wrap;
+}
+
+.home-cta button{
+  padding:16px 32px;
+  border-radius:12px;
+  border:none;
+  font-size:16px;
+  font-weight:600;
+  cursor:pointer;
+  transition:all 0.3s ease;
+  position:relative;
+  overflow:hidden;
+}
+
+.home-cta button:first-child{
+  background:linear-gradient(135deg, #1976d2, #0ea5e9);
+  color:white;
+  box-shadow:0 8px 25px rgba(25,118,210,0.3);
+}
+
+.home-cta button:first-child:hover{
+  transform:translateY(-3px);
+  box-shadow:0 15px 35px rgba(25,118,210,0.4);
+}
+
+.home-cta button.secondary{
+  background:rgba(255,255,255,0.9);
+  color:#1976d2;
+  border:2px solid rgba(25,118,210,0.2);
+  backdrop-filter:blur(10px);
+}
+
+.home-cta button.secondary:hover{
+  background:rgba(255,255,255,1);
+  border-color:#1976d2;
+  transform:translateY(-2px);
+  box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px){
+  .home-card{
+    padding:24px;
+    margin:20px;
+  }
+  
+  .home-hero h1{
+    font-size:26px;
+  }
+  
+  .columns{
+    grid-template-columns:1fr;
+    gap:16px;
+  }
+  
+  .home-cta{
+    flex-direction:column;
+    align-items:center;
+  }
+  
+  .home-cta button{
+    width:100%;
+    max-width:280px;
+  }
+}
+
+/* larger tablet breakpoint adjustments */
+@media (max-width: 1024px){
+  .home-card{ padding:32px; }
+  .home-hero h1{ font-size:30px; }
+  .home-card > p{ font-size:15px; }
+  .columns{ gap:20px; }
+}
+
+@media (max-width: 480px){
+  .home-card{ padding:18px; border-radius:12px; }
+  .home-hero h1{ font-size:22px; }
+  .home-hero .logo{ padding:12px; }
+  .home-card > p{ font-size:14px; }
+  .col{ padding:14px 8px; }
+  .home-cta{ margin-top:20px; }
+}
+
+/* ---------- UI polish additions ---------- */
+/* Hide the separate month/year selects (Calendar keeps the date input) */
+.detail-calendar select,
+.detail-panel .cal-head select,
+.detail-panel select {
+  display: block !important; /* Override the display: none */
+}
+/* Style the calendar dropdowns properly */
+.inline-calendar select {
+  background: #fff !important;
+  border: 1px solid #d1d5db !important;
+  border-radius: 6px !important;
+  padding: 6px 8px !important;
+  fontSize: 14px !important;
+  color: #374151 !important;
+  cursor: pointer !important;
+  appearance: auto !important;
+  -webkit-appearance: menulist !important;
+}
+
+/* Style the calendar dropdowns properly */
+.inline-calendar select {
+  background: #fff !important;
+  border: 1px solid #d1d5db !important;
+  border-radius: 6px !important;
+  padding: 6px 8px !important;
+  fontSize: 14px !important;
+  color: #374151 !important;
+  cursor: pointer !important;
+  appearance: auto !important;
+  -webkit-appearance: menulist !important;
+}
+
+/* Calendar navigation buttons */
+.calendar-nav-btn {
+  background: #f8fafc !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 6px !important;
+  padding: 8px 10px !important;
+  cursor: pointer !important;
+  fontSize: 14px !important;
+  color: #334155 !important;
+  transition: all 0.2s ease !important;
+}
+
+.calendar-nav-btn:hover {
+  background: #e2e8f0 !important;
+  transform: translateY(-1px) !important;
+}
+
+/* Calendar container improvements */
+.detail-calendar .inline-calendar {
+  position: static !important;
+  width: 100% !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04) !important;
+  border: 1px solid rgba(0,0,0,0.06) !important;
+  background: #fff !important;
+  border-radius: 8px !important;
+}
+
+/* Make sure the dropdowns are visible and properly sized */
+.inline-calendar select {
+  min-width: 120px;
+  max-width: none;
+}
+
+/* Focus styles for better accessibility */
+.inline-calendar select:focus,
+.calendar-nav-btn:focus {
+  outline: none !important;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2) !important;
+  border-color: #3b82f6 !important;
+}
+/* Make the date input crisp and full-width */
+.detail-calendar input[type="date"] {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #e6eefb;
+  background: #fff;
+  box-shadow: inset 0 1px 2px rgba(3,18,34,0.03);
+  font-size: 14px;
+}
+
+/* Small utility buttons used in the right panel */
+.detail-panel .small{
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #e6eefb;
+  background: #fff;
+  color: #0b3b52;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+.detail-panel .small.primary{
+  background: var(--primary);
+  color: #fff;
+  border-color: transparent;
+  box-shadow: 0 8px 24px rgba(25,118,210,0.12);
+}
+.detail-panel .small:hover{ transform: translateY(-2px); box-shadow: 0 10px 22px rgba(3,18,34,0.06); }
+
+/* Controls row (interpolate) — clearer CTA and active state */
+.controls-row button{ padding: 8px 12px; border-radius: 8px; border: 1px solid #e6eefb; background: #fff; font-weight:700; color:#0b3b52 }
+.controls-row button.active{ background: var(--primary); color: #fff; border-color: transparent; box-shadow: 0 8px 20px rgba(25,118,210,0.08) }
+.controls-row button:hover{ transform: translateY(-2px); }
+.controls-row input[type="number"]{ padding:8px 10px; border-radius:8px; border:1px solid #e6eefb }
+
+/* Slightly increase spacing and polish the detail panel */
+.detail-panel{ padding:22px; border-radius:14px; transition: box-shadow .18s ease, transform .18s ease }
+.detail-panel:hover{ box-shadow: 0 18px 60px rgba(12,38,56,0.08); transform: translateY(-2px) }
+
+/* Tighter, flatter badges */
+.badge{ box-shadow:none; border:1px solid rgba(0,0,0,0.04); opacity:0.98 }
+.status-good{ background:#16a34a }
+.status-moderate{ background:#f59e0b }
+.status-poor{ background:#ef4444 }
+
+/* Selected date emphasis */
+.selected-date strong{ color: var(--primary); font-weight:800 }
+
+/* Make the map visually pop from the page */
+.map{ border-radius:14px; overflow:hidden; box-shadow:0 14px 50px rgba(3,18,34,0.06) }
+.map .leaflet-tile-pane img{ image-rendering: -webkit-optimize-contrast; }
+
+/* Improve readability of the small info lists */
+.param-list.large li{ padding:10px 6px }
+.param-list.large .value{ color:#0b3b52 }
+
+/* Improve CTA buttons inside the home card */
+.home-cta button{ transition: transform .18s ease, box-shadow .18s ease }
+
+/* Make controls more compact on narrow screens */
+@media (max-width:640px){
+  .detail-panel{ padding:14px }
+  .detail-panel .small{ padding:6px 8px; font-size:13px }
+  .controls-row button{ padding:6px 8px }
+}
